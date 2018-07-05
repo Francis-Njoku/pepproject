@@ -1,0 +1,276 @@
+
+.table-striped>tbody>tr:nth-child(odd)>td,.table-striped>tbody>tr:nth-child(odd)>th
+{
+
+    opacity: 0.7 ;
+    color: black;
+}
+
+
+.schad {
+	line-height: 22px;
+	font-size:18px;
+	font-family: Ebrima Georgia, "Times New Roman", Times, serif;
+	}
+.btn-dark-blue-contact {
+    color: #FFF;
+    background-color: #70b234;
+    font-size: 20px;
+    font-family: Ebrima Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+    background-image: -moz-linear-gradient(#70b234, #2e3456);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#70b234), to(#2e3456));
+    background-image: -webkit-linear-gradient(#70b234, #2e3456);
+    background-image: -o-linear-gradient(#70b234, #2e3456);
+    background-image: -ms-linear-gradient(#70b234, #2e3456);
+    background-image: linear-gradient(#70b234, #2e3456);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+
+}
+.btn-dark-blue-contact:hover {
+    background: repeat scroll 0 0;
+    color: #FFF;
+    text-decoration: none;
+    border: 1px solid #d45d00;
+    background-color: #2e3456;
+    background-image: -moz-linear-gradient(#2E3456, #2E3456);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#2E3456), to(#2E3456));
+    background-image: -webkit-linear-gradient(#2E3456, #2E3456);
+    background-image: -o-linear-gradient(#2E3456, #2E3456);
+    background-image: -ms-linear-gradient(#2E3456, #2E3456);
+    background-image: linear-gradient(#2E3456, #2E3456);
+
+}
+
+.schola_head {
+	font-size: 11px;
+    font-family: Ebrima Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+	color: #70b234;
+	}
+
+.schola_head2 {
+	font-size: 12px;
+    font-family: Ebrima Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+	
+	}
+.schola_head3 {
+	font-size: 11px;
+    font-family: Ebrima Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+	color: #2e3456;
+	}
+.schola_mid {
+	font-size: 20px;
+    font-family: Ebrima Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+	color: #2e3456;
+	}
+.schola_mid_2 {
+	font-size: 17px;
+    font-family: Ebrima Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+	color: #999;
+	}
+.schola_red{
+	font-size: 20px;
+    font-family: Ebrima Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+	color: #000;
+	}
+.schola_border {
+	border-left-style:dashed;
+	border-left-color: #70b234;
+	border-left-width:medium;}
+.schola_deadline{
+	font-size: 13px;
+    font-family: Ebrima Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+	}
+.schola_deadline_2 {
+	font-size: 27px;
+    font-family: Ebrima Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+	color: #999;
+	}
+.schola_deadline_3 p {
+	font-size: 15px;
+    font-family: Ebrima Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+	line-height: 20px;
+	color: #666;
+	text-align:justify;
+	}
+.schola_first {
+	background-color:#70b234;
+	width: 100%;
+	}
+#main-slider2 {
+    position: relative;
+
+}
+@media(max-width:767px) {
+    #main-slider2 {
+
+    }
+}
+#main-slider2 .carousel h2 {
+    font-size: 72px;
+    line-height:60px;
+    color:#FFF;
+    text-transform:uppercase;
+    margin-top:20%;
+    font-weight:700;
+    padding-left:0;
+}
+#main-slider2 .carousel p {
+    font-size: 24px;
+    line-height:24px;
+    color:#FFF;
+    text-transform:uppercase;
+    font-weight:400;
+    padding-left:0;
+}
+#main-slider2 .carousel .btn {
+    color: #fff;
+    border-radius: 0;
+    margin-top: 5px;
+}
+#main-slider2 .carousel .btn:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+#main-slider2 .carousel .boxed {
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: inline-block;
+}
+#main-slider2 .carousel .item {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0 !important;
+    opacity: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    display: block !important;
+    height: 400px;
+    -webkit-transition: opacity ease-in-out 500ms;
+    -moz-transition: opacity ease-in-out 500ms;
+    -o-transition: opacity ease-in-out 500ms;
+    transition: opacity ease-in-out 500ms;
+}
+#main-slider2 .carousel .item:first-child {
+    top: auto;
+    position: relative;
+}
+#main-slider2 .carousel .item.active {
+    opacity: 1;
+    -webkit-transition: opacity ease-in-out 500ms;
+    -moz-transition: opacity ease-in-out 500ms;
+    -o-transition: opacity ease-in-out 500ms;
+    transition: opacity ease-in-out 500ms;
+    z-index: 1;
+}
+#main-slider2 .prev,
+#main-slider2 .next {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    display: inline-block;
+    margin-top: -25px;
+    font-size: 24px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    z-index: 5;
+    outline: 0;
+}
+#main-slider2 .prev:hover,
+#main-slider2 .next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+#main-slider2 .prev {
+    left: 10px;
+}
+#main-slider2 .next {
+    right: 10px;
+}
+#main-slider2 .active .animation.animated-item-1 {
+    -webkit-animation: fadeInUp 300ms linear 300ms both;
+    -moz-animation: fadeInUp 300ms linear 300ms both;
+    -o-animation: fadeInUp 300ms linear 300ms both;
+    -ms-animation: fadeInUp 300ms linear 300ms both;
+    animation: fadeInUp 300ms linear 300ms both;
+}
+#main-slider2 .active .animation.animated-item-2 {
+    -webkit-animation: fadeInUp 300ms linear 600ms both;
+    -moz-animation: fadeInUp 300ms linear 600ms both;
+    -o-animation: fadeInUp 300ms linear 600ms both;
+    -ms-animation: fadeInUp 300ms linear 600ms both;
+    animation: fadeInUp 300ms linear 600ms both;
+}
+#main-slider2 .active .animation.animated-item-3 {
+    -webkit-animation: fadeInUp 300ms linear 900ms both;
+    -moz-animation: fadeInUp 300ms linear 900ms both;
+    -o-animation: fadeInUp 300ms linear 900ms both;
+    -ms-animation: fadeInUp 300ms linear 900ms both;
+    animation: fadeInUp 300ms linear 900ms both;
+}
+#main-slider2 .active .animation.animated-item-4 {
+    -webkit-animation: fadeInUp 300ms linear 1200ms both;
+    -moz-animation: fadeInUp 300ms linear 1200ms both;
+    -o-animation: fadeInUp 300ms linear 1200ms both;
+    -ms-animation: fadeInUp 300ms linear 1200ms both;
+    animation: fadeInUp 300ms linear 1200ms both;
+}
+.marquee_sch {
+	
+	height: 50px;
+	margin: 25px auto;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid #000;
+
+	background-color: #70b234;
+
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+    -webkit-box-shadow: inset 0px 2px 2px  rgba(0, 0, 0, .5), 0px 1px 0px  rgba(250, 250, 250, .2);
+    box-shadow: inset 0px 2px 2px  rgba(0, 0, 0, .5), 0px 1px 0px  rgba(250, 250, 250, .2);
+
+	-webkit-transition: background-color 350ms;
+	-moz-transition: background-color 350ms;
+    transition: background-color 350ms;
+}
+
+.marquee_sch p {
+	position: absolute;
+
+	font-family: Tahoma, Arial, sans-serif;
+
+	width: 100%;
+	height: 100%;
+
+	margin: 0;
+	line-height: 50px;
+
+	text-align: center;
+
+	color: #fff;
+    text-shadow: 1px 1px 0px #000000;
+    filter: dropshadow(color=#000000, offx=1, offy=1);
+
+	transform:translateX(100%);
+	-moz-transform:translateX(100%);
+	-webkit-transform:translateX(100%);
+}

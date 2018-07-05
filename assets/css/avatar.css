@@ -1,0 +1,26 @@
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px; }
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 15px; }
+
+.avatar.border-white {
+    border: 5px solid #FFFFFF; }
+.avatar.border-gray {
+    border: 5px solid #ccc5b9; }
+.avatar {
+    height: 190px;
+    width: 190px; }
+
+.pop_design
+{
+    padding: 15px;
+}

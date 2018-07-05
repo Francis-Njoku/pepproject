@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+.span12{width:940px;}
+.span11{width:860px;}
+.span10{width:780px;}
+.span9{width:700px;}
+.span8{width:620px;}
+.span7{width:540px;}
+.span6{width:460px;}
+.span5{width:380px;}
+.span4{width:300px;}
+.span3{width:220px;}
+.span2{width:140px;}
+.span1{width:60px;}
+
+
+.topmost-naver {
+	
+color: #70b234;
+font-size: 18px;
+font-family:Ebrima, Georgia, "Times New Roman", Times, serif;
+	}
+.topmost-naver:hover {
+color: #70b234;
+text-decoration: none;
+
+}
+.others-white {
+	color: white;}
+.btn-read-lex {
+	 color: #2e3456;
+    background-color: #fff;
+    font-size: 20px;
+	 padding: 5px 5px 5px 5px;
+	 font-weight: bold;
+	 vertical-align:central;
+    border-radius: 5px 5px 5px 5px;
+	 
+	}
+.btn-read-lex:hover {
+	 color: #2e3456;
+    background-color: #70b234;
+	text-decoration: none;
+	}	
+
+.btn-dark-blue-lextorah {
+    color: #FFF;
+    background-color: #70b234;
+    font-size: 20px;
+    font-family: Ebrima Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+    background-image: -moz-linear-gradient(#70b234, #2e3456);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#70b234), to(#2e3456));
+    background-image: -webkit-linear-gradient(#70b234, #2e3456);
+    background-image: -o-linear-gradient(#70b234, #2e3456);
+    background-image: -ms-linear-gradient(#70b234, #2e3456);
+    background-image: linear-gradient(#70b234, #2e3456);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+
+}
+.btn-dark-blue-lextorah:hover {
+    background: repeat scroll 0 0;
+    color: #FFF;
+    text-decoration: none;
+    border: 1px solid #d45d00;
+    background-color: #2e3456;
+    background-image: -moz-linear-gradient(#2E3456, #2E3456);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#2E3456), to(#2E3456));
+    background-image: -webkit-linear-gradient(#2E3456, #2E3456);
+    background-image: -o-linear-gradient(#2E3456, #2E3456);
+    background-image: -ms-linear-gradient(#2E3456, #2E3456);
+    background-image: linear-gradient(#2E3456, #2E3456);
+
+}
+
+.side-job-align {
+	vertical-align:middle;
+	alignment-adjust:central;}
+	
+.inner-lex-jobs h3, .inner-lex-jobs h4 {
+	color: #70b234;}
+	
+.inner-lex-jobs p{
+	color: #000;
+	text-align:justify;
+	}		

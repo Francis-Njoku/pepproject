@@ -1,0 +1,102 @@
+
+.coin-left
+{
+    background-color: lightgreen;
+}
+.coin-right
+{
+    background-color: lightgoldenrodyellow;
+}
+.homesubfrm
+{
+    border-width: thin;
+    border-style: solid;
+    border-radius: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: red;
+    padding: 10px;
+}
+
+.backy
+{
+    position: relative;
+    width: 100%;
+    background-color: lightgray;
+    background-size: cover;
+    overflow: auto;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+
+}
+.backyer
+{
+    position: relative;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    overflow: auto;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+
+}
+.user_top
+{
+    font-family: DigifaceWide, Ebrima, Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+.big_head
+{
+    font-size: 16px;
+}
+.setter
+{
+    background-color: white;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 20px;
+}
+.marginal-top
+{
+    margin-top: 50px;
+}
+
+label.cameraButton {
+    display: inline-block;
+    margin: 1em 0;
+
+    /* Styles to make it look like a button */
+    padding: 0.5em;
+    border: 2px solid #666;
+    border-color: #EEE #CCC #CCC #EEE;
+    background-color: #DDD;
+}
+
+/* Look like a clicked/depressed button */
+label.cameraButton:active {
+    border-color: #CCC #EEE #EEE #CCC;
+}
+
+/* This is the part that actually hides the 'Choose file' text box for camera inputs */
+label.cameraButton input[accept*="camera"] {
+    display: none;
+}
+
+.ad_cs
+{
+    color: green;
+    text-align: left;
+}
+.ad_cs4
+{
+    color: red;
+    text-align: left;
+}
+.ad_cs2
+{
+    font-style: italic;
+}
+.ad_cs3
+{
+    font-weight: bold;
+}
+
+

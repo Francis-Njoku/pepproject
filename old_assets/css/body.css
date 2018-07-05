@@ -1,0 +1,361 @@
+@import url('http://netdna.bootstrapcdn.com/font-awesome/3.1.0/css/font-awesome.min.css');
+.main_register
+{
+    color: black;
+}
+.user_page
+{
+    color: white;
+}
+.starter-enter
+{
+    color: red;
+}
+.top_color
+{
+    color: white;
+}
+.user_tree_2
+{
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+}
+.sheet_size
+{
+    font-weight: bold;
+}
+.sheet_color_1
+{
+    color: white;
+}
+.user_tree
+{
+    border-style: dotted;
+    border-color: silver;
+}
+.capacity-building
+{
+    color: green;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.inputBtnSection{
+    display:inline-block;
+    vertical-align:top;
+    font-size:0;
+    font-family:verdana;
+}
+.disableInputField{
+    display:inline-block;
+    vertical-align:top;
+    height: 27px;
+    margin: 0;
+    font-size:14px;
+    padding:0 3px;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    border:solid 1px gray;
+    display:inline-block;
+    vertical-align:top;
+}
+.uploadBtn{
+    display:inline-block;
+    vertical-align:top;
+    background:rgba(0,0,0,0.5);
+    font-size:14px;
+    padding:0 10px;
+    height:25px;
+    line-height:22px;
+    color:#fff;
+}
+
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.homesubcallbor
+{
+    border-color: lightgray;
+    border-style: solid;
+    border-width: thin;
+    padding: 30px 30px 30px 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.homesubfrm
+{
+    border-color: lightgray;
+    border-width: thin;
+    border-style: solid;
+    box-shadow: 0 0 10px lightgray,
+    0 0 20px lightgray;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.accordion2-toggle:after {
+    font-family: 'FontAwesome';
+    content: "\f078";
+    float: right;
+}
+.accordion2-opened .accordion-toggle:after {
+    content: "\f054";
+}
+
+.hr-color
+{
+
+    color: white;
+    background-color: white;
+}
+.cancel_form
+{
+    align-content: center;
+    align-items: center;
+}
+.program_print
+{
+    border-color: white;
+    border-style: dotted;
+    border-width: thin;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.impo-head{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+.body-image {
+    background-image: url("../img/logos/lagos-state2png.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+
+}
+.body-image-2 {
+    background-image: url("../img/logos/lagos-state2png.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+
+}
+.body-summary4{
+    margin-top: 100px;
+}
+.logo {
+    height: 80px;
+    width: auto;
+}
+
+.blum
+{
+    color: #70b234;
+    font-size: 17px;
+}
+
+.header_title
+{
+    color: green;
+    text-align: center;
+}
+.patient_record
+{
+    color: green;
+    text-align: center;
+}
+.hospital_record
+{
+    color: green;
+    text-align: center;
+}
+.record_1
+{
+    background-color: red;
+    padding: 10px 10px 10px 10px;
+}
+.record_2
+{
+    background-color: blue;
+    padding: 10px 10px 10px 10px;
+}
+.record_3
+{
+    padding: 10px 10px 10px 10px;
+    background-image: url("../img/back/back-9.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+}
+.top_title_register
+{
+
+    border-radius: 10px 10px 10px 10px;
+    color: blue;
+}
+
+.durin
+{
+    background-color: red;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 20px;
+}
+.durin a
+{
+    color: white;
+}
+
+.durin2
+{
+    background-color: dodgerblue;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 20px;
+}
+.durin2 a
+{
+    color: yellow;
+}
+.durin3
+{
+    background-color: slateblue;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 20px;
+}
+.durin3 a
+{
+    color: white;
+}
+.durin4
+{
+    background-color: lawngreen;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 20px;
+}
+.durin4 a
+{
+    color: blue;
+}
+
+
+.great
+{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.health_list_1
+{
+    background-color: lightgreen;
+}
+
+.health_list_2
+{
+    background-color: lightpink;
+}
+
+.health_list_4
+{
+    background-color: lightblue;
+}
+.health_list_5
+{
+    background-color: lightcoral;
+}
+.health_list_6
+{
+    background-color: lightsalmon;
+}
+.health_list_7
+{
+    background-color: lightgoldenrodyellow;
+}
+.health_list_8
+{
+    background-color: lightseagreen;
+}
+.health_list_9
+{
+    background-color: lightsteelblue;
+}
+.health_list_10
+{
+    background-color: darkorange;
+}
+.health_list_11
+{
+    background-color: mediumvioletred;
+}
+.health_list_12
+{
+    background-color: burlywood;
+}
+
+.health_list_13
+{
+    background-color: darksalmon;
+}
+
+.health_list_14
+{
+    background-color: orchid;
+}
+
+.health_list_15
+{
+    background-color: thistle;
+}
+
+.health_list_16
+{
+    background-color: tan;
+}
+
+.health_list_17
+{
+    background-color: silver;
+}
+
+.health_list_3
+{
+    text-align: center;
+    color: green;
+}
+.front-head
+{
+    background-color: lightblue;
+}

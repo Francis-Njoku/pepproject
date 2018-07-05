@@ -1,0 +1,27 @@
+.navbar-default {
+    background-color: #FFF;
+    border-color: #CCC;
+}
+.navbar {
+	background:#111;
+}
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .10s ease-in-out,padding .10s ease-in-out;
+        -moz-transition: background .10s ease-in-out,padding .10s ease-in-out;
+        transition: background .10s ease-in-out,padding .10s ease-in-out;
+        background-color: black;
+        color: black;
+    }
+	
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #aec62c;
+    color: #000000;
+}
+
